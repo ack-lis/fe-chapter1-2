@@ -21,7 +21,8 @@
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:report": "npx playwright show-report",
     "test:generate": "playwright codegen localhost:5173",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:basic:1-2": "vitest src/__tests__/chapter1-2/basic.test.jsx"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
